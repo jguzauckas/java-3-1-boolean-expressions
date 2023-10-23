@@ -14,12 +14,12 @@ We can think of comparisons of two values as answering a question. The simplest 
 
 ## Relational Operators
 
-When we compare two things, we refer to it as a **relational operation**, meaning the answer to the question is relative to the two values. Our two most basic **relational operators** can compare two primitive values or reference values (note: not objects, their references) in the form of two basic questions:
+When we compare two things, we refer to it as a **relational operation**, meaning the answer to the question is relative to the two values. Our two most basic **relational operators** can compare two primitive values, reference values (note: not objects, their references), or objects themselves in the form of two basic questions:
 
 - "Are these two things equal?"
 - "Are these two things not equal?" (can also be rephrased as "Are these two things different?")
 
-When wanting to decide if two things are equal, we unfortunately cannot use an equals sign `=`, since from our earlier work we know that it represents assignment of information. Instead, we use two equals signs `==` to compare two things to see if they are equal. We place the equality operator between two values to determine if they are equivalent. This can be done with any primitive types or with reference values (the locations of objects, not the objects themselves). Here is some examples from the `NotesEqual1.java` file:
+When wanting to decide if two things are equal, we unfortunately cannot use an equals sign `=`, since from our earlier work we know that it represents assignment of information. Instead, we use two equals signs `==` to compare two things to see if they are equal. We place the equality operator between two values to determine if they are equivalent. This can be done with any primitive types, reference values (the locations of objects, not the objects themselves), or objects. Here is some examples from the `NotesEqual1.java` file:
 
 ```java
 System.out.println(10 == 11); // We know this must be `false`
@@ -45,7 +45,7 @@ true
 false
 ```
 
-Just like checking if two things are equal, we can also check if they are not equal, often better phrased as if they are different. This operator is made by combining an exclamation point `!` and an equals sign `=` to produce the not equals operator `!=`. We place the not equals operator between two values to determine if they are different. If the two values are different, it produces the `boolean` value `true`, while if they are the same it produces the `boolean` value `false`. This can be done with any primitive types or with reference values (the locations of objects, not the objects themselves). Here is some examples from the `NotesNotEqual1.java` file:
+Just like checking if two things are equal, we can also check if they are not equal, often better phrased as if they are different. This operator is made by combining an exclamation point `!` and an equals sign `=` to produce the not equals operator `!=`. We place the not equals operator between two values to determine if they are different. If the two values are different, it produces the `boolean` value `true`, while if they are the same it produces the `boolean` value `false`. This can be done with any primitive types, reference values (the locations of objects, not the objects themselves), or objects. Here is some examples from the `NotesNotEqual1.java` file:
 
 ```java
 System.out.println(10 != 11); // We know this must be `true`
